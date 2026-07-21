@@ -1,2 +1,10 @@
 # crystalschatapp
 chatapp
+chat-app/
+│
+├── server.js
+├── package.json
+├── public/
+│   ├── index.html
+│   └── script.js
+└── README.md
