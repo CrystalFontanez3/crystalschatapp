@@ -4,7 +4,10 @@ routes/rooms.js
 const Room = require("../models/Room");
 const express = require("express");
 const User = require("../models/User");
-const auth = require("../middleware/auth");
+routes/auth.js, 
+  users.js, 
+  rooms.js
+  const auth = require("../middleware/auth");
 jwt.verify(token, process.env.JWT_SECRET)const router = express.Router();
 const jwt = require("jsonwebtoken");
 const authMiddleware = (req, res, next) => {
