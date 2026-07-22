@@ -1,8 +1,2 @@
 crystalschatapp/
-│
-├── server.js
-├── package.json
-├── public/
-│   ├── index.html
-│   └── script.js
 └── README.md
