@@ -1,6 +1,9 @@
 crystalschatapp.com
 crystalschatapp/
-│
+│routes/
+auth.js
+users.js
+rooms.js
 ├── server.js
 ├── package.json
 ├── routes/
