@@ -1,6 +1,4 @@
-# crystalschatapp
-chatapp
-chat-app/
+crystalschatapp/
 │
 ├── server.js
 ├── package.json
