@@ -1,3 +1,4 @@
-auth.js
-users.js
-rooms.js
+routes/
+    auth.js
+    users.js
+    rooms.js
