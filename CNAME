@@ -1,22 +1,28 @@
-crystalschatapp.com
 crystalschatapp/
-│routes/
-auth.js
-users.js
-rooms.js
+│
 ├── server.js
 ├── package.json
+│
 ├── routes/
-├──users.js│   
-└── auth.js
-├──routes/rooms.js
-├──│models/Room.js
-models/Message.js
-middleware/auth.js
-config/db.js
-├── public/chat.html, 
-public/dm.html,
-public/script.js, 
-public/styles.css│  
-└── index.html
+│   ├── auth.js
+│   ├── users.js
+│   └── rooms.js
+│
+├── models/
+│   ├── Room.js
+│   └── Message.js
+│
+├── middleware/
+│   └── auth.js
+│
+├── config/
+│   └── db.js
+│
+└── public/
+    ├── index.html
+    ├── chat.html
+    ├── dm.html
+    ├── script.js
+    └── styles.css
+│
 └── README.md
