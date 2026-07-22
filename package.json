@@ -14,15 +14,3 @@
     "cors": "^2.8.5"
   },
 }
-repo
-crystalschatapp/
-│
-├── server.js
-├── package.json
-├── routes/
-│   └── auth.js
-├── models/
-│   └── User.js
-├── public/
-│   └── index.html
-└── README.md
