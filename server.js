@@ -20,3 +20,10 @@ io.on("connection", (socket) => {
 http.listen(3000, () => {
     console.log("Server running on http://localhost:3000");
 });
+const socket = io();
+const form = document.getElementById("form");
+const input = document.getElementById("input");
+const messages = document.getElementById("messages");
+
+// NEW: ask for a username once, when the page loads
+let username = prompt("Enter your name:") || "Anonymous";
