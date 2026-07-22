@@ -14,3 +14,6 @@
     "cors": "^2.8.5"
   }
 }
+git add package.json
+git commit -m "Fix package.json"
+git push
