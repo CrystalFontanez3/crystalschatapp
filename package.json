@@ -5,7 +5,11 @@
   "scripts": {
     "start": "node server.js" 
   },
-  node_modules 
+ "resolutions": {
+  "package-a": "2.0.0",
+  "package-b": "5.0.0",
+  "package-c": "1.5.2"
+}
   "dependencies": {
     "express": "^4.18.2",
     "socket.io": "^4.7.2"}
