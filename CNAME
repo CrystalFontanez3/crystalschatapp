@@ -4,9 +4,16 @@ crystalschatapp/
 ├── server.js
 ├── package.json
 ├── routes/
-│   └── auth.js
-├── models/
-│   └── User.js
-├── public/
-│   └── index.html
+├──users.js│   
+└── auth.js
+├──routes/rooms.js
+├──│models/Room.js
+models/Message.js
+middleware/auth.js
+config/db.js
+├── public/chat.html, 
+public/dm.html,
+public/script.js, 
+public/styles.css│  
+└── index.html
 └── README.md
