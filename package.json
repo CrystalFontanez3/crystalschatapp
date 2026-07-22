@@ -18,3 +18,7 @@
   "username": "hellofriend",
   "password": "test"
 }
+{
+  "message": "Registered",
+  "user": { ... }
+}
