@@ -12,8 +12,8 @@
     "bcryptjs": "^2.4.3",
     "webtoken": "^9.0.0",
     "cors": "^2.8.5"
-  }
-}
 git add package.json
 git commit -m "Fix package.json"
 git push
+  }
+}
