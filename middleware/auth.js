@@ -5,7 +5,7 @@ const Room = require("../models/Room");
 const express = require("express");
 const User = require("../models/User");
 const auth = require("../middleware/auth");
-const router = express.Router();
+jwt.verify(token, process.env.JWT_SECRET)const router = express.Router();
 const jwt = require("jsonwebtoken");
 const authMiddleware = (req, res, next) => {
   const header = req.headers.authorization;
