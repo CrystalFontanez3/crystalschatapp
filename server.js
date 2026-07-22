@@ -27,3 +27,24 @@ const messages = document.getElementById("messages");
 
 // NEW: ask for a username once, when the page loads
 let username = prompt("Enter your name:") || "Anonymous";
+form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    if (input.value) {
+        socket.emit("chat message", { user: username, text: input.value });
+        input.value = "";
+    }
+});
+socket.on("chat message", (msg) => {
+    const item = document.createElement("li");
+    item.textContent = `${msg.user}: ${msg.text}`;
+
+    // mark your own messages differently
+    if (msg.user === username) {
+        item.classList.add("own-message");
+    }
+
+    messages.appendChild(item);
+});
+socket.on("chat message", (msg) => {
+    io.emit("chat message", msg);
+});
