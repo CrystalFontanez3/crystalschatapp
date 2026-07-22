@@ -14,3 +14,7 @@
     "cors": "^2.8.5"
   },
 }
+{
+  "username": "test",
+  "password": "test"
+}
