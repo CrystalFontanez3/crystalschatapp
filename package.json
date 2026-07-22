@@ -15,5 +15,5 @@
     "bcryptjs": "^2.4.3",
     "json.parse(<anonymous>) webtoken": "^9.0.0",
     "cors": "^2.8.5"
-  } {"username": "test",
+  },
   "password": "test"}
