@@ -5,3 +5,4 @@ git push
 curl -X POST https://crystalschatapp3.onrender.com/api/auth/login \
   -H "Content-Type: application/json" \
   -d '{"username":"test","password":"test"}'
+API
